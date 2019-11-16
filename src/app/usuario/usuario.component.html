@@ -1,0 +1,30 @@
+
+<h1 class="bg-dark text-center text-white p-5">Projeto LocalStorage com jarallax</h1>
+
+<div class="jarallax bannervideo" data-jarallax='{"speed":1}' data-jarallax-video="https://youtu.be/qitWUv43wJY">
+
+</div>
+<hr>
+<p>Id:</p>
+<input type="number" name="id" [(ngModel)]="usuario.id" />
+<br>
+<p>Nome:</p>
+<input type="text" name="nome" [(ngModel)]="usuario.nome" />
+<br>
+<p>Login:</p>
+<input type="text" name="login" [(ngModel)]="usuario.login" />
+<br>
+<p>Senha:</p>
+<input type="password" name="senha" [(ngModel)]="usuario.senha" />
+
+<br>
+<button type="button" (click)="cadastrarStorage()">Storage</button>
+<br>
+<button type="button" (click)="cadastrarStorage()">Storage</button>
+<br>
+{{ msg }}
+<br>
+<button type="button" [appAluno]="visitaSiteCurso" 
+                      confirmaMensagem="Entre no site da coti">
+Visite o nosso site
+</button>
